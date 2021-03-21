@@ -43,7 +43,7 @@ public class RetrieveTicketsID {
          BufferedReader rd = new BufferedReader(new InputStreamReader(is, StandardCharsets.UTF_8));
          String jsonText = readAll(rd);
          JSONObject json = new JSONObject(jsonText);
-         return json;
+         
        } finally {
          is.close();
        }
