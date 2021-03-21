@@ -51,7 +51,7 @@ public class RetrieveTicketsID {
   
   	   public static void main(String[] args) throws IOException, JSONException {
   		   
-  		   Logger LOGGER = Logger.getLogger(RetrieveTicketsID.class.getName());
+  		   Logger logger = Logger.getLogger(RetrieveTicketsID.class.getName());
 		   String projName ="MAHOUT";
 		   Integer j = 0;
 		   Integer i = 0;
@@ -77,7 +77,7 @@ public class RetrieveTicketsID {
 			   }  
 		   } while (i < total);
 		   id = sb.toString();
-		   LOGGER.log(Level.INFO, id);
+		   logger.log(Level.INFO, id);
 				   
   	   }
 
