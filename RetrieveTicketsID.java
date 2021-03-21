@@ -54,7 +54,8 @@ public class RetrieveTicketsID {
   	   public static void main(String[] args) throws IOException, JSONException {
 		   
 		   String projName ="MAHOUT";
-	   Integer j = 0, i = 0, total = 1;
+	   Integer j = 0;
+	   Integer i = 0, total = 1;
       //Get JSON API for closed bugs w/ AV in the project
       do {
          //Only gets a max of 1000 at a time, so must do this multiple times if bugs >1000
